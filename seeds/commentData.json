@@ -1,0 +1,16 @@
+[
+    {
+        "text": "I said what I said!",
+        "contentType": "TEXT",
+        "authorUsername": "LakersFan143",
+        "communityId": "1",
+        "reactions": 7
+    },
+    {
+        "text": "The next-gen console is terrible",
+        "contentType": "TEXT",
+        "authorUsername": "EmilysBaby",
+        "communityId": "2",
+        "reactions": 15 
+    }
+]

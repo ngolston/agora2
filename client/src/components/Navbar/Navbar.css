@@ -1,0 +1,80 @@
+.navbarContainer{
+    height: 50px;
+    width: 100%;
+    background-color:black;
+    display: flex;
+    align-items: center;
+    /* position: sticky; */
+    top: 0;
+
+}
+.navbarLeft{
+    flex: 3;
+}
+.navbarCenter{
+    flex: 5;
+}
+.navbarRight{
+    flex: 4;
+    display: flex;
+    align-items: center;
+  justify-content: space-around;
+}
+.logo{
+    /* width: 80px;
+    height: 40px;
+    margin-left: 10px; */
+    /* width: 20%; */
+    height: 40px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+    /* object-fit: contain; */
+}
+.searchBar{
+    width: 90%;
+    height: 30px;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+}
+.searchIcon{
+    font-size: 20px !important;
+    margin-left: 10px;
+}
+.searchInput{
+    border: none;
+    width: 70%;
+}
+.searchInput:focus{
+    outline: none;
+}
+.navbarLinks{
+    display: flex;
+    
+
+}
+.navbarLink{
+    margin-right: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    border: black;
+
+}
+.openModalBtn{
+    margin-right: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    border: 0;
+    border-top: 3px solid #01fd91;
+    border-bottom: 3px solid transparent;
+    background: #ddd;
+    border-radius: 5px;
+}
+
+.openModalBtn:hover {
+    border-top: 3px solid transparent;
+    border-bottom: 3px solid #16acf2;
+}

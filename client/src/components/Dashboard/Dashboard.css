@@ -1,0 +1,82 @@
+.dashboard{
+    width: 100%;
+  height: 170px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+  box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+
+}
+
+.dashWrap{
+    padding: 10px;
+}
+
+.dashHead{
+    display: flex;
+  align-items: center;
+}
+
+
+.logohead{
+    width: 20%;
+    height: 40px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+    object-fit: cover;
+
+}
+
+.dashInput{
+    border: none;
+  width: 80%;
+}
+.dashInput:focus {
+    outline: none;
+
+}
+.dashHr {
+    margin:15px;
+}
+.dashFoot {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .dashOptions{
+      display: flex;
+      margin-left: 20px;
+  }
+  
+  .dashOption{
+      display: flex;
+      align-items: center;
+      margin-right: 15px;
+      cursor: pointer;
+  }
+  
+  
+  
+  .dashOptionTxt{
+      font-size: 14px;
+      font-weight: 500;
+  }
+  
+  .dashBtn{
+      border: none;
+      padding: 7px;
+      border-radius: 5px;
+      background-color:black;
+      color: white;
+      font-weight: 500;
+      margin-right: 20px;
+      cursor: pointer;
+      color: white;
+  }
+  .titleCloseBtn {
+    display: flex;
+    justify-content: flex-end;
+  }
+  

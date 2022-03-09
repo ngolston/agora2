@@ -1,0 +1,23 @@
+[
+    {
+        "communityId": "1"
+,        "title": "Sports",
+        "description": "Everything Sports: Especially Basketball and Volleyball",
+        "image": "{url}",
+        "relatedPosts": []
+    },
+    {
+        "communityId": "2",
+        "title": "Technology",
+        "description": "All about Technology and Coding",
+        "image": "{url}",
+        "relatedPosts": []
+    },
+    {
+        "communityId": "3",
+        "title": "Movies",
+        "description": "Movies! Movies! Movies!",
+        "image": "{url}",
+        "relatedPosts": []
+    }
+]
